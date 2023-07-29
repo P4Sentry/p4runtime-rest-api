@@ -17,7 +17,7 @@ import sys
 
 import grpc
 from google.rpc import code_pb2, status_pb2
-from p4.v1 import p4runtime_pb2
+from p4runtime.v1 import p4runtime_pb2
 
 
 # Used to indicate that the gRPC error Status object returned by the server has

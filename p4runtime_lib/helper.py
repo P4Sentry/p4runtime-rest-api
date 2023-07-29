@@ -1,8 +1,8 @@
 import re
 from .convert import encode
-from p4.v1 import p4runtime_pb2
+from p4runtime.v1 import p4runtime_pb2
 import google.protobuf.text_format
-from p4.config.v1 import p4info_pb2
+from p4runtime.config.v1 import p4info_pb2
 
 
 class P4InfoHelper(object):
